@@ -1,0 +1,54 @@
+/* Змінні */
+:root {
+    --primary-white-color: #FFFFFF;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+/* Body стилі */
+.body-page {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: 'Roboto'; sans-serif
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14;
+    line-height: calc(24 / 14);
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+}
+
+/* загальні стилі */
+.link {text-decoration: none;}
+.list {list-style: none;}
+.button {background-color: ; color: }
+
+/* Основна навігація */
+
+.site-nav .link {color: var(--title-text-color);}
+.site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
+.site-nav .link.current {color: var(--accent-color);}
+.logo {color: var(--accent-color);}
+.logo-end-header {color: #000000;}
+.auth-nav{}
+.auth-nav-tel{}
+.auth-nav-mail{}
+
+/* hero */
+.hero {background-color: #2F303A;}
+.hero-title {color: var(--primary-white-color);}
+.hero-button {background-color: var(--accent-color);
+color: var(--primary-white-color);}
+
+/* section */
+.section-title {color: var(--title-text-color);}
+
+/* footer */
+.footer {background-color: #2F303A;}
+.logo-end-footer {color: var(--primary-white-color);}
+.address {text-decoration:none; font-style: normal;}
+/* portfolio */
+/* filtr */
+.filtr-button {background-color: #F5F4FA; color: var(--title-text-color);}
+.filtr-button:hover, .button:focus {background-color: var(--accent-color); color: var(--primary-white-color);}
