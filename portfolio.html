@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,114 +8,114 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+
+<body class="body-page">
 
     <header>
         <!-- Основна навігація -->
-    <nav>
-        <ul class="site-nav list">
-            <li>
-              <a href="/" class="logo link">Web<Span class="logo-end-header">Studio</Span></a>  
-            </li>
-            <li>
-              <a href="./index.html" class="link current">Студія</a>  
-            </li>
-            <li>
-               <a href="./portfolio.html" class="link">Портфоліо</a> 
-            </li>
-            <li>
-               <a href="#" class="link">Контакти</a> 
-            </li>
+        <nav>
+            <a href="/" class="logo link">Web<Span class="logo-end-header">Studio</Span></a>
+
+            <ul class="site-nav list">
+                <li>
+                    <a href="./index.html" class="link">Студія</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html" class="link current">Портфоліо</a>
+                </li>
+                <li>
+                    <a href="#" class="link">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="contact-nav list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-    </nav>
-    <ul class="auth-nav list">
-        <li><a href="mailto:info@devstudio.com" class="auth-nav-tel">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="auth-nav-mail">+38 096 111 11 11</a></li>
-    </ul>
-    
-       </header> 
+
+    </header>
 
     <main>
 
-<!-- Фільтр -->
-<section>
-    <h1 hidden>Вибери напрямок</h1>
-        <ul class="list">
-            <li><button type="button" class="filtr-button">Усі</button></li>
-            <li><button type="button" class="filtr-button">Веб-сайти</button></li>
-            <li><button type="button" class="filtr-button">Додатки</button></li>
-            <li><button type="button" class="filtr-button">Дизайн</button></li>
-            <li><button type="button" class="filtr-button">Маркетинг</button></li>
-        </ul>
-</section>
 <!-- Портфоліо -->
-<section class="section">
-    <h2 hidden>Портфоліо</h2>
+<section class="portfolio">
+    <h1 class="visualy-hidden">Портфоліо</h1>
+    <!-- Фільтр -->
+    <ul class="list">
+        <li><button type="button" class="filter-button">Усі</button></li>
+        <li><button type="button" class="filter-button">Веб-сайти</button></li>
+        <li><button type="button" class="filter-button">Додатки</button></li>
+        <li><button type="button" class=" filter-button">Дизайн</button></li>
+        <li><button type="button" class="filter-button">Маркетинг</button></li>
+    </ul>
+
     <ul class="list link">
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/tehnokryak.jpg" alt="Співробітники компанії" width="370">
-            <h3 class="section-title">Технокряк</h3>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Технокряк</h2>
+            <p class="portfolio-text">Веб-сайт</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/poster.jpg" alt="Два баскетболисти" width="370">
-            <h3 class="section-title">Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio-text">Дизайн</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/restoran.jpg" alt="Логотип ресторану" width="370">
-            <h3 class="section-title">Ресторан Seafood</h3>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Ресторан Seafood</h2>
+            <p class="portfolio-text">Додаток</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/project1.jpg" alt="Навушники" width="370">
-            <h3 class="section-title">Проєкт Prime</h3>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проєкт Prime</h2>
+            <p class="portfolio-text">Маркетинг</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/project2.jpg" alt="Дві коробки" width="370">
-            <h3 class="section-title">Проєкт Boxes</h3>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Проєкт Boxes</h2>
+            <p class="portfolio-text">Додаток</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/inspiration.jpg" alt="Монітор компьютера" width="370">
-            <h3 class="section-title">Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <h2 class="portfolio-title">Inspiration has no Borders</h2>
+            <p class="portfolio-text">Веб-сайт</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/edition.jpg" alt="Розворот журналу" width="370">
-            <h3 class="section-title">Видання Limited Edition</h3>
-            <p>Дизайн</p>
+            <h2 class="portfolio-title">Видання Limited Edition</h2>
+            <p class="portfolio-text">Дизайн</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/project3.jpg" alt="Бірка від одягу" width="370">
-            <h3 class="section-title">Проєкт LAB</h3>
-            <p>Маркетинг</p>
+            <h2 class="portfolio-title">Проєкт LAB</h2>
+            <p class="portfolio-text">Маркетинг</p>
             </a>
         </li>
         <li>
-            <a href="#">
+            <a href="#" class="link">
             <img src="./images/bussiness.jpg" alt="Людина друкує на клавіатурі ноутбука">
-            <h3 class="section-title">Growing Business</h3>
-            <p>Додаток</p>
+            <h2 class="portfolio-title">Growing Business</h2>
+            <p class="portfolio-text">Додаток</p>
             </a>
         </li>
     </ul>
@@ -123,14 +124,15 @@
 
     <footer class="footer">
         <a href="/" class="logo link">Web<Span class="logo-end-footer">Studio</Span></a>
-        <address>
-            <ul class="list link">
-                <li><a href="https://goo.gl/maps/HGfggYdq6uxmMYeL7" target="_blank" rel="noreferrer noopener nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <address class="contact-nav">
+            <ul class="list">
+                <li><a href="https://goo.gl/maps/HGfggYdq6uxmMYeL7" target="_blank" rel="noreferrer noopener nofollow"
+                        class="address link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="tel link">+38 096 111 11 11</a></li>
             </ul>
         </address>
-           </footer>
+    </footer>
 </body>
 
 </html>
