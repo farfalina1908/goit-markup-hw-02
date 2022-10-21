@@ -1,9 +1,12 @@
 /* Змінні */
 :root {
     --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --section-bgc: #F5F4FA;
+    --secondary-bgc: #2F303A;
 }
 /* body styles */
 .body-page {
@@ -29,7 +32,7 @@
     font-size: 26px;
     line-height: calc(31 / 26);}
 
-.logo-end-header {color: #000000;}
+.logo-end-header {color: var(--primary-black-color);}
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -49,7 +52,7 @@
 .contact-nav .link:hover, .contact-nav .link:focus {color: var(--accent-color);}
 
 /* hero */
-.hero {background-color: #2F303A;}
+.hero {background-color: var(--secondary-bgc);}
 
 .hero-title {
     color: var(--primary-white-color);
@@ -64,6 +67,7 @@
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
@@ -85,7 +89,9 @@
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;}
-    
+
+.team {background-color: var(--section-bgc);}
+   
     .worker-name {
         color: var(--title-text-color);   
         font-weight: 500;
@@ -97,7 +103,7 @@
             line-height: calc(19 / 16);}
 
 /* footer */
-.footer {background-color: #2F303A;}
+.footer {background-color: var(--secondary-bgc);}
 
 .logo-end-footer {color: var(--primary-white-color);}
 
@@ -115,6 +121,7 @@
     background-color: #F5F4FA; 
     color: var(--title-text-color);
     cursor: pointer;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
