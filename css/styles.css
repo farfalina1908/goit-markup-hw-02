@@ -16,7 +16,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: calc(24 / 14);
+    line-height: 1.71;
     letter-spacing: 0.03em;}
 
 /* common styles */
@@ -30,14 +30,14 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: calc(31 / 26);}
+    line-height: 1.19;}
 
 .logo-end-header {color: var(--primary-black-color);}
 
 .site-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
-    line-height: calc(16 / 14);
+    line-height: 1.14;
     letter-spacing: 0.02em;}
 
 .site-nav .link:hover, .site-nav .link:focus {color: var(--accent-color);}
@@ -46,7 +46,7 @@
 .contact-nav .link {
         color: inherit;
         font-weight: 500;
-        line-height: calc(16 / 14);
+        line-height: 1.14;
         letter-spacing: 0.02em;}
 
 .contact-nav .link:hover, .contact-nav .link:focus {color: var(--accent-color);}
@@ -58,7 +58,7 @@
     color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: calc(60 / 44);
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;}
@@ -70,7 +70,7 @@
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: calc(30 / 16);
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -80,14 +80,14 @@
 .feature-title {
     color: var(--title-text-color);
     font-weight: 700;
-    line-height: calc(16 / 14);
+    line-height: 1.14;
     text-transform: uppercase;}
 
 .cases-title, .team-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: calc(42 / 36);
+    line-height: 1.17;
     text-align: center;}
 
 .team {background-color: var(--section-bgc);}
@@ -96,11 +96,11 @@
         color: var(--title-text-color);   
         font-weight: 500;
         font-size: 16px;
-        line-height: calc(19 / 16);}
+        line-height: 1.19;}
 
     .worker-profession {
             font-size: 16px;
-            line-height: calc(19 / 16);}
+            line-height: 1.19;}
 
 /* footer */
 .footer {background-color: var(--secondary-bgc);}
@@ -124,7 +124,7 @@
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(26 / 16);
+    line-height: 1.63;
     text-align: center;}
 
 .filter-button:hover, .filter-button:focus {
@@ -136,10 +136,10 @@
         color: var(--title-text-color);
         font-weight: 700;
         font-size: 18px;
-        line-height: calc(36 / 18);
+        line-height: 2;
         letter-spacing: 0.06em;}
 
 .portfolio-text {
         color: var(--primary-text-color);    
         font-size: 16px;
-        line-height: calc(30 / 16);}
+        line-height: 1.88;}
